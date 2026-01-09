@@ -41,20 +41,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/f41/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
 
 PRODUCT_PACKAGES += \
+    libswdap \
     camera.exynos9611 \
     libSEF.quram \
+    libbauthserver \
+    libbauthtzcommon \
+    libegis_fp_normal_sensor_test \
     libexynoscamera3 \
+    libgf_in_system_lib \
+    libqfp_sensortest \
     libsecnativefeature \
     libsensorlistener \
+    libsynaFpSensorTestNwd \
     libuniapi \
     libuniplugin \
     sensors.grip \
     sensors.inputvirtual \
-    sensors.sensorhub \
-    libswdap \
-    libbauthserver \
-    libbauthtzcommon \
-    libegis_fp_normal_sensor_test \
-    libgf_in_system_lib \
-    libqfp_sensortest \
-    libsynaFpSensorTestNwd
+    sensors.sensorhub
